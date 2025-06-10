@@ -815,8 +815,7 @@
 
             saveTasks() {
                 try {
-                    // Since we can't use localStorage in Claude.ai environment,
-                    // we'll keep tasks in memory for the session
+                    // Keep tasks in memory for the session
                     // In a real environment, you would use:
                     // localStorage.setItem('tasks', JSON.stringify(this.tasks));
                 } catch (error) {
@@ -826,8 +825,7 @@
 
             loadTasks() {
                 try {
-                    // Since we can't use localStorage in Claude.ai environment,
-                    // we'll return sample tasks for demonstration
+                    // Return sample tasks for demonstration
                     // In a real environment, you would use:
                     // return JSON.parse(localStorage.getItem('tasks') || '[]');
                     
